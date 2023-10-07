@@ -1,0 +1,37 @@
+.result{
+    
+    
+        justify-content: space-evenly;
+        color: white;
+        margin-top: 50px;
+        margin: 0 auto; 
+        margin-left: 250px;
+      
+      
+    
+}
+.result thead{
+    font-size: 20px;
+}
+.result tbody tr{
+    font-size: 15px;
+    padding-bottom: 22px;
+    word-wrap: break-word;
+}
+.result th{
+    padding: 17px;
+    
+}
+@media (max-width: 768px) {
+    .result {
+      margin: 0 10px; /* Adjust this value as needed for responsiveness */
+    }
+    .result thead{
+        font-size: 13px;
+    }
+    .result tbody tr{
+        font-size: 10px;
+        padding: 12px;
+    }
+  }
+  

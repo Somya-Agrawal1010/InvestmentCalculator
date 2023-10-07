@@ -1,0 +1,10 @@
+.header{
+    height: 30%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.header img{
+    height: 100px;
+    margin-top: 20px;
+}

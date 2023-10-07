@@ -1,0 +1,60 @@
+.form{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    margin-left: 30%;
+    width: 40%;
+    border-radius: 10px;  
+    background-color:rgba(60, 179, 114, 0.275);
+}
+.input-grp{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    margin-left: 50px;
+    
+}
+.input-grp input{
+    width: 175px;
+    height: 25px;
+    margin-top: 10px;
+    padding: 3px;
+    background-color: seagreen;
+    color: white;
+    border-radius: 10px;
+    background: none;
+}
+
+.actions{
+    margin-top: 230px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding: 9px; 
+      
+}
+
+.actions button{
+
+    width: 100%;
+    background-color: seagreen;
+    padding: 4px;
+    
+    
+}
+@media screen and (max-width:500px) {
+    .form{
+        width: 90%;
+        display: block;
+        margin-left: 5%;
+
+    }
+    .input-grp{
+        font-size: 20px;
+
+    }
+    
+}
+  
